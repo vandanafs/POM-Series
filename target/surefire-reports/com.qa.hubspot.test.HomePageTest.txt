@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.hubspot.test.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.594 s <<< FAILURE! - in com.qa.hubspot.test.HomePageTest
+verifyLoggedInUserNameTest(com.qa.hubspot.test.HomePageTest)  Time elapsed: 20.954 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HSD14IN', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\vanda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f049b96af8a7ccdce682c60f53bec5b4
+*** Element info: {Using=css selector, value=img.nav-avatar}
+	at com.qa.hubspot.test.HomePageTest.verifyLoggedInUserNameTest(HomePageTest.java:65)
+
