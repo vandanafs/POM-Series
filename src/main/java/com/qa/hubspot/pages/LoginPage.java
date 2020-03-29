@@ -21,7 +21,7 @@ Credentials credentials;
 	By signUpLink = By.linkText("Sign up");
 	By headingOnHomePage = By.xpath("//h1[text()='Sales Dashboard']");
 	By errorMsg = By.cssSelector("h5.private-alert__title");
-
+   By ramdon=By.id("random");
 	// 2.Constructors of page class
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
