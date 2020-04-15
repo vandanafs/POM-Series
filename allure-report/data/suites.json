@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "HubSpot Regression Sanity test suite ",
+    "children" : [ {
+      "name" : "Regression Functional Sanity Test",
+      "children" : [ {
+        "name" : "com.qa.hubspot.test.LoginPageTest",
+        "children" : [ {
+          "name" : "login_InvalidTestCases",
+          "uid" : "613cd452747f8658",
+          "parentUid" : "33d3ca023e3650628f9fcb574661c163",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1586835450925,
+            "stop" : 1586835450929,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySignUpLinkTest",
+          "uid" : "4eb0f8dc1cd0b14e",
+          "parentUid" : "33d3ca023e3650628f9fcb574661c163",
+          "status" : "broken",
+          "time" : {
+            "start" : 1586835462189,
+            "stop" : 1586835482687,
+            "duration" : 20498
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyLoginPageTitleTest",
+          "uid" : "b1b52a520141ce2e",
+          "parentUid" : "33d3ca023e3650628f9fcb574661c163",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586835482715,
+            "stop" : 1586835482738,
+            "duration" : 23
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginTest",
+          "uid" : "a275209149f5ec3f",
+          "parentUid" : "33d3ca023e3650628f9fcb574661c163",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586835482745,
+            "stop" : 1586835485476,
+            "duration" : 2731
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "33d3ca023e3650628f9fcb574661c163"
+      } ],
+      "uid" : "b0613d1ea9fc4d3ce0722fe24acd8d69"
+    } ],
+    "uid" : "189d6219e5e3e231129b9b2e5660bfc9"
+  } ]
+}

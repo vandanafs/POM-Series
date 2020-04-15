@@ -1,0 +1,131 @@
+{
+  "uid" : "b1b52a520141ce2e",
+  "name" : "verifyLoginPageTitleTest",
+  "fullName" : "com.qa.hubspot.test.LoginPageTest.verifyLoginPageTitleTest",
+  "historyId" : "2dd8bf183821346a7dac74dcf5f84278",
+  "time" : {
+    "start" : 1586835482715,
+    "stop" : 1586835482738,
+    "duration" : 23
+  },
+  "description" : "verify Login Page Title Test",
+  "descriptionHtml" : "<p>verify Login Page Title Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1586835451182,
+      "stop" : 1586835462149,
+      "duration" : 10967
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "verify Login Page Title Test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify page title test ",
+      "time" : {
+        "start" : 1586835482715,
+        "stop" : 1586835482732,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1586835485480,
+      "stop" : 1586835486071,
+      "duration" : 591
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.hubspot.test.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.hubspot.test.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyLoginPageTitleTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HubSpot Regression Sanity test suite "
+  }, {
+    "name" : "suite",
+    "value" : "Regression Functional Sanity Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.hubspot.test.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSD14IN"
+  }, {
+    "name" : "thread",
+    "value" : "10440@DESKTOP-HSD14IN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Epic -101:Define login feature for hubspot application"
+  }, {
+    "name" : "feature",
+    "value" : "US -1001 : create features for  login with sign,title and login"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1b52a520141ce2e.json",
+  "parameterValues" : [ ]
+}

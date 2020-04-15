@@ -45,7 +45,7 @@ public class HomePageTest {
 
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, description="verify HomePage title  Test")
 	public void verifyHomePageTitleTest() {
 		String title = homePage.getHomePageTitle();
 		System.out.println("Home Page title:" + title);

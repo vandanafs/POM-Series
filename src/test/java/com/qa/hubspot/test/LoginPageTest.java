@@ -17,6 +17,15 @@ import com.qa.hubspot.pages.LoginPage;
 import com.qa.hubspot.util.AppConstants;
 import com.qa.husspot.pojo.Credentials;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+ 
+
+@Epic ("Epic -101:Define login feature for hubspot application")
+@Feature("US -1001 : create features for  login with sign,title and login")
 public class LoginPageTest {
 
 	BasePage basePage;
@@ -25,6 +34,8 @@ public class LoginPageTest {
 	LoginPage loginPage;
 	HomePage homePage;
 	Credentials credentials;
+	
+	
 	
 	@BeforeTest
 	@Parameters({"browser"})
@@ -46,6 +57,8 @@ public class LoginPageTest {
 	}
 
 	@Test(priority = 2)
+	@Description("verify Login Page Title Test")
+	@Severity(SeverityLevel.NORMAL)
 	public void verifyLoginPageTitleTest() {
 
 		String title = loginPage.getPageTitle();
@@ -53,13 +66,17 @@ public class LoginPageTest {
 		Assert.assertEquals(title, AppConstants.LOGIN_PAGE_TITLE);
 	}
 
-	@Test(priority=1, description="verify sign up link Test")
+	@Test(priority=1) //testng
+	@Description("verify signup link test ")
+	@Severity(SeverityLevel.CRITICAL)
 	public void verifySignUpLinkTest() {
 		
 		Assert.assertTrue(loginPage.verifySignUpLink());
 	}
 	
 	@Test(priority=3)
+	@Description("verify app login test ")
+	@Severity(SeverityLevel.BLOCKER)
 	public void loginTest() {
 		homePage=loginPage.doLogin(credentials);
 		

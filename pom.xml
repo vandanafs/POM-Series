@@ -3,9 +3,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>HubSpot</groupId>
-	<artifactId>HubSpot1</artifactId>
+	<artifactId>HubSpot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!-- 		<aspectj.version>1.8.10</aspectj.version> -->
+		<aspectj.version>1.9.5</aspectj.version>
+	</properties>
 
 	<build>
 		<plugins>
@@ -29,11 +37,28 @@
 					<reuseForks>true</reuseForks>
 					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 					<suiteXmlFiles>
-						<suiteXmlFile>./src/test/resources/testrunner/testng_sanity.xml</suiteXmlFile>
+<!-- 						<suiteXmlFile>src/test/resources/testrunner/testng_sanity.xml</suiteXmlFile> -->
+						<suiteXmlFile>.\src\test\resources\testrunner\testng_sanity.xml</suiteXmlFile>
 					</suiteXmlFiles>
+  					<testFailureIgnore>false</testFailureIgnore>
+					<argLine>
+<!-- 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar" -->
+<!-- 								-javaagent:"${settings.localRepository}\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar" -->
+<!-- 								     -javaagent:${settings.localRepository}\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar -->
+								      -javaagent:"C:\Users\vanda\.m2\repository\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar"
+					</argLine>
 
 				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>${aspectj.version}</version>
+				
+					</dependency>
+				</dependencies>
 			</plugin>
+
 
 		</plugins>
 	</build>
