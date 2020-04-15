@@ -3,18 +3,15 @@
 <suite name="HubSpot Regression Sanity test suite ">
 	<listeners>
 		<!-- <listener class-name="com.qa.hubspot.listeners.pdfListener" /> -->
-		<!--   <listener class-name="com.qa.hubspot.listeners.ExtentReportListener" 
-			/> 	-->																
-
-
-      <listener class-name="com.qa.hubspot.listeners.TestAllureListener" 
-			/>
-	  	<!--  <listener class-name="com.qa.hubspot.listeners.ScreenshotListener" 
+		<!-- <listener class-name="com.qa.hubspot.listeners.ScreenshotListener" 
 			/> -->
-
-		<!--  <listener
-			class-name="com.qa.hubspot.listeners.TesultsListener" /> -->
-
+			
+		<listener
+			class-name="com.qa.hubspot.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.hubspot.listeners.TesultsListener" />
+		<listener
+			class-name="com.qa.hubspot.listeners.TestAllureListener" />
 
 
 	</listeners>
@@ -25,7 +22,7 @@
 
 			<class name="com.qa.hubspot.test.LoginPageTest" />
 
-			<!--   <class name="com.qa.hubspot.test.HomePageTest"/> -->
+			<!-- <class name="com.qa.hubspot.test.HomePageTest"/> -->
 		</classes>
 	</test> <!-- Regression Functional Test -->
 </suite> <!-- HubSpot Regression test suite -->
