@@ -3,8 +3,8 @@
 <suite name="HubSpot Regression Sanity test suite ">
 	<listeners>
 		<!-- <listener class-name="com.qa.hubspot.listeners.pdfListener" /> -->
-		<!-- <listener class-name="com.qa.hubspot.listeners.ScreenshotListener" 
-			/> -->
+		 <listener class-name="com.qa.hubspot.listeners.ScreenshotListener" 
+			/> 
 			
 		<listener
 			class-name="com.qa.hubspot.listeners.ExtentReportListener" />
