@@ -9,11 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">HubSpot Regression Sanity test suite </th></tr>
-<tr><td><a href="#t0">Regression Functional Sanity Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">36,264</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Regression Functional Sanity Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">76,394</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HubSpot Regression Sanity test suite </th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Functional Sanity Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m0">verifySignUpLinkTest</a></td><td rowspan="1">1586833782502</td><td rowspan="1">20516</td></tr><tr><th colspan="4">Regression Functional Sanity Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1586833803433</td><td rowspan="1">3298</td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginPageTitleTest</a></td><td rowspan="1">1586833803407</td><td rowspan="1">22</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HubSpot Regression Sanity test suite </th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Functional Sanity Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m0">verifySignUpLinkTest</a></td><td rowspan="1">1589329637061</td><td rowspan="1">20977</td></tr><tr><th colspan="4">Regression Functional Sanity Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1589329659781</td><td rowspan="1">5577</td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginPageTitleTest</a></td><td rowspan="1">1589329659749</td><td rowspan="1">23</td></tr></tbody>
 </table>
-<h2>Regression Functional Sanity Test</h2><h3 id="m0">com.qa.hubspot.test.LoginPageTest#verifySignUpLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Sign up11 (tried for 20 second(s) with 500 milliseconds interval)
+<h2>Regression Functional Sanity Test</h2><h3 id="m0">com.qa.hubspot.test.LoginPageTest#verifySignUpLinkTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png'> <img src='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png' height='100' width='100'/> </a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Sign up11 (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at com.qa.hubspot.util.ElementActions.waitForElementPresent(ElementActions.java:64)
@@ -45,15 +45,15 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign up11&quot;}
-  (Session info: headless chrome=81.0.4044.92)
+  (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-HSD14IN&apos;, ip: &apos;192.168.1.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vanda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b273869aa4d91354a2a9f5b5ba8562d4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\vanda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d7b8e93e305ce87dfbbce6c8b3b377
 *** Element info: {Using=link text, value=Sign up11}
-	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)

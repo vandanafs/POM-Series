@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [HubSpot Regression Sanity test suite ]">
   <listeners>
+    <listener class-name="com.qa.hubspot.listeners.ScreenshotListener"/>
+    <listener class-name="com.qa.hubspot.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.hubspot.listeners.TesultsListener"/>
     <listener class-name="com.qa.hubspot.listeners.TestAllureListener"/>
   </listeners>
   <test thread-count="5" name="Regression Functional Sanity Test(failed)">

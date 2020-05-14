@@ -20,7 +20,7 @@ public class LoginPage extends BasePage {
 	By username = By.id("username");
 	By password = By.id("password");
 	By loginBtn = By.id("loginBtn");
-	By signUpLink = By.linkText("Sign up11");
+	By signUpLink = By.linkText("Sign up");
 	By headingOnHomePage = By.xpath("//h1[text()='Sales Dashboard']");
 	By errorMsg = By.cssSelector("h5.private-alert__title");
 	By ramdon = By.id("random111");

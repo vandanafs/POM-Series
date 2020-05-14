@@ -179,15 +179,15 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign up11&quot;}
-  (Session info: headless chrome=81.0.4044.92)
+  (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-HSD14IN&apos;, ip: &apos;192.168.1.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vanda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b273869aa4d91354a2a9f5b5ba8562d4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\vanda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d7b8e93e305ce87dfbbce6c8b3b377
 *** Element info: {Using=link text, value=Sign up11}
-	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -206,8 +206,6 @@ Session ID: b273869aa4d91354a2a9f5b5ba8562d4
 	... 28 more
 
 </div> <!-- stack-trace -->
-                  <em>
-(verify sign up link Test)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,6 +243,9 @@ Session ID: b273869aa4d91354a2a9f5b5ba8562d4
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;HubSpot Regression Sanity test suite &quot;&gt;
   &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.ScreenshotListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.TesultsListener&quot;/&gt;
     &lt;listener class-name=&quot;com.qa.hubspot.listeners.TestAllureListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;2&quot; verbose=&quot;2&quot; name=&quot;Regression Functional Sanity Test&quot;&gt;
@@ -293,20 +294,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifySignUpLinkTest')
 data.setCell(0, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(0, 3, 20516);
+data.setCell(0, 3, 20977);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
 data.setCell(1, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(1, 3, 3298);
+data.setCell(1, 3, 5577);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyLoginPageTitleTest')
 data.setCell(2, 2, 'com.qa.hubspot.test.LoginPageTest')
-data.setCell(2, 3, 22);
+data.setCell(2, 3, 23);
 window.suiteTableData['HubSpot_Regression_Sanity_test_suite_']= { tableData: data, tableDiv: 'times-div-HubSpot_Regression_Sanity_test_suite_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-HubSpot_Regression_Sanity_test_suite_">
               </div> <!-- times-div-HubSpot_Regression_Sanity_test_suite_ -->
             </div> <!-- times-div -->
@@ -317,6 +318,12 @@ return data;
             <span class="header-content">Reporter output for HubSpot Regression Sanity test suite </span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySignUpLinkTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png'> <img src='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-HubSpot_Regression_Sanity_test_suite_" class="panel">
@@ -348,19 +355,19 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySignUpLinkTest</span>
-                <span class="method-start">10987 ms</span>
+                <span class="method-start">46650 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">31892 ms</span>
+                <span class="method-start">69338 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">31918 ms</span>
+                <span class="method-start">69370 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35221 ms</span>
+                <span class="method-start">74953 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

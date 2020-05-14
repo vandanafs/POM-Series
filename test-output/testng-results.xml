@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="1" ignored="1" total="4" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png'> <img src='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png' height='100' width='100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="HubSpot Regression Sanity test suite " duration-ms="36264" started-at="2020-04-14T03:09:31Z" finished-at="2020-04-14T03:10:07Z">
+  <suite name="HubSpot Regression Sanity test suite " duration-ms="76394" started-at="2020-05-13T00:26:29Z" finished-at="2020-05-13T00:27:46Z">
     <groups>
     </groups>
-    <test name="Regression Functional Sanity Test" duration-ms="36264" started-at="2020-04-14T03:09:31Z" finished-at="2020-04-14T03:10:07Z">
+    <test name="Regression Functional Sanity Test" duration-ms="76394" started-at="2020-05-13T00:26:29Z" finished-at="2020-05-13T00:27:46Z">
       <class name="com.qa.hubspot.test.LoginPageTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.hubspot.test.LoginPageTest@492fc69e]" name="setup" is-config="true" duration-ms="10966" started-at="2020-04-14T03:09:31Z" finished-at="2020-04-14T03:09:42Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.hubspot.test.LoginPageTest@51751e5f]" name="setup" is-config="true" duration-ms="46599" started-at="2020-05-13T00:26:30Z" finished-at="2020-05-13T00:27:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@492fc69e]" name="verifySignUpLinkTest" duration-ms="20516" started-at="2020-04-14T03:09:42Z" description="verify sign up link Test" finished-at="2020-04-14T03:10:03Z">
+        <test-method status="FAIL" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@51751e5f]" name="verifySignUpLinkTest" duration-ms="20977" started-at="2020-05-13T00:27:17Z" finished-at="2020-05-13T00:27:38Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for presence of element located by: By.linkText: Sign up11 (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -56,15 +59,15 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign up11"}
-  (Session info: headless chrome=81.0.4044.92)
+  (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-HSD14IN', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vanda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b273869aa4d91354a2a9f5b5ba8562d4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\vanda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d7b8e93e305ce87dfbbce6c8b3b377
 *** Element info: {Using=link text, value=Sign up11}
-at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -85,17 +88,20 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png'> <img src='C:\Users\vanda\workspace2\HybridFramework\target\surefire-reports\failure_screenshots\verifySignUpLinkTest_12_05_2020_05_27_39.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@492fc69e]" name="verifyLoginPageTitleTest" duration-ms="22" started-at="2020-04-14T03:10:03Z" finished-at="2020-04-14T03:10:03Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@51751e5f]" name="verifyLoginPageTitleTest" duration-ms="23" started-at="2020-05-13T00:27:39Z" finished-at="2020-05-13T00:27:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@492fc69e]" name="loginTest" duration-ms="3298" started-at="2020-04-14T03:10:03Z" finished-at="2020-04-14T03:10:06Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@51751e5f]" name="loginTest" duration-ms="5577" started-at="2020-05-13T00:27:39Z" finished-at="2020-05-13T00:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@492fc69e]" name="tearDown" is-config="true" duration-ms="609" started-at="2020-04-14T03:10:06Z" finished-at="2020-04-14T03:10:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@51751e5f]" name="tearDown" is-config="true" duration-ms="746" started-at="2020-05-13T00:27:45Z" finished-at="2020-05-13T00:27:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
